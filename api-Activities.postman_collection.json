@@ -49,7 +49,12 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"id\":789,\"title\":\"doe a deer a female deer, ray a drop of golden sun\",\"dueDate\":\"2022-06-24T01:24:53.515Z\",\"completed\":true}"
+					"raw": "{\n    \"id\": 789,\n    \"title\": \"doe a deer a female deer, ray a drop of golden sun\",\n    \"dueDate\": \"2022-06-24T01:24:53.515Z\",\n    \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities",
